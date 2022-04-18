@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@500&display=swap');
+
+@media (max-width: 998px){
+nav .nav-btns {
+        display: none;
+    }
+}
+nav {
+    background-color: #ffffff;
+    height: 90px;
+}
+
+.nav-item:hover{
+    background-color: #f2f2f2;
+    color: #3c3c3c;
+}
+.btn  {
+    color: #3c3c3c;
+    font-size: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: #f6f6f6 0.5px solid;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.more-info {
+    background-color: #b6b5b350;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.text-container {
+    width: 100%;
+    height: 364px;
+    background-color: #ffffff;
+    
+}
+.text-container h1 {
+    font-size: 33px;
+    font-family: 'Raleway', sans-serif;
+}
+.text-container p {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 16px;
+}
+.line {
+    width: 30px;
+    height: 5px;
+    background-color: rgb(63, 61, 61);
+    margin-top: -30px;
+    margin-left: 330px;
+}
+
+.cards {
+    
+    background-image: linear-gradient(rgb(221, 217, 217), white);
+}
+.cards h5 {
+    font-family: 'Raleway';
+}
+.cards p {
+    font-family: 'Playfair Display';
+    font-size: 14px;
+}
+.featured-section {
+    background-image: linear-gradient(rgb(235, 221, 221), white);
+    font-family: 'Raleway', sans-serif;
+}
+hr {
+    margin: 2.5rem 0;
+    color: inherit;
+    background-color: #e2574c;
+    border: 3px solid #e2574c;
+    opacity: 1;
+    width: 20%;
+    margin-left: 420px;
+  }
+.card-text {
+    color: #969393;
+    font-size: 13px;
+}
+
+.list-inline {
+    border-top: 1px solid #969393;
+    font-size: 16px;
+    color: #969393;
+    
+}
+
+.btn-lg {
+    width: 5.96cm;
+    height: 1.86cm;
+    border-radius: 10px;
+    color: white;
+    margin-left: 40%;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.new-home {
+    background: #f3f2f2;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.new-home p {
+    font-size: 22px;
+}
+
+.testimonials {
+    background: url(../images/testimonials.png);
+    color: white;
+}
+
+.text-car {
+    width: 500px;
+    height: 250px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.text car p {
+    font-family: 'Raleway';
+}
+.text-car span {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.our-partners {
+    font-family: 'Raleway', sans-serif;
+}
+footer p {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 14px;
+}
+footer h6 {
+    font-family: 'Raleway', sans-serif;
+}
+footer .btn  {
+    color: #000;
+    font-size: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #ffffff;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.links p a {
+    text-decoration: none;
+}
+
+
+
+  
+  
+
